@@ -1,0 +1,21 @@
+h3{
+    text-align: center;
+    padding: .5vw;
+    margin-top: 2vw;
+    
+}
+
+h2{
+    text-align: center;
+    margin-top: .5vw;
+    color: purple;
+    }
+
+.vform{
+    margin-left: 23.5vw;
+}
+.errorMessage{
+    color: rgb(255, 0, 0);
+    font-size: small;
+}
+

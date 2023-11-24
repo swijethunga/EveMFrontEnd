@@ -1,0 +1,26 @@
+.brfback{
+    position:relative;
+    /* width:60%;
+    height:80%; */
+    margin-left: 20vw;
+    margin-right: 20vw;
+    align-items: center;
+    background-color:#CDC4D3;
+}
+
+h3{
+    text-align: center;
+    padding: .5vw;
+    margin-top: 2vw;
+    
+}
+
+h2{
+    text-align: center;
+    margin-top: .5vw;
+    color: purple;
+    }
+
+    body{
+        background-color: #c4baca;
+    }

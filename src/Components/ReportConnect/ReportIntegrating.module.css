@@ -1,0 +1,162 @@
+ .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+    
+} 
+
+.icon1{
+    background-image: url(../../Images/img1.svg);
+}
+
+/* input field */
+/*.inputContainer {
+    position: relative;
+    display: flex;
+    width: 50%;
+    max-width: 290px;
+  }
+  
+  .go{
+    white-space: nowrap;
+    display: block;
+    border-radius: 5px 5px 5px 5px;
+  }
+  
+  .input{
+    white-space: nowrap;
+    display: block;
+  }
+
+  .list{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+  }
+
+  .listItem{
+    width: 2.3vw;
+    height:5.3vh;
+    background-image: url(../../Images/listItem.svg);
+    display: flex;
+    flex-direction: row;
+  }
+  .listRows{
+    display: flex;
+    gap: 1vw;
+  }*/
+
+  .h1header{
+
+/* position: absolute; */
+
+
+font-family: 'Ek Mukta';
+
+font-weight: 600; 
+font-size: 40px;
+
+/* display: flex; */
+align-items: center;
+ text-align: center; 
+
+
+color: #7F167F;
+
+  }
+
+.budgetdiv{
+  margin-top: 10px;
+  align-items: center;
+  /* margin-right: 50%; */
+  width: 100%;
+  height: 100%;
+  
+  
+   display: inline-block; 
+}
+
+.dropdowndiv{
+    margin-top: 20px;
+    
+    /* padding-right: 20px; */
+    /* width: 50%; */
+    /* align-items: center */
+}
+
+.buttonGap{
+  margin-left: 10px;
+
+}
+
+button {
+  background: #e999fd;
+  font-family: inherit;
+  padding: 0.6em 1.3em;
+  font-weight: 900;
+  font-size: 18px;
+  border: 3px solid black;
+  border-radius: 0.4em;
+  box-shadow: 0.1em 0.1em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+}
+
+button:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+}
+
+.btn{
+  box-sizing: border-box;
+  position: absolute;
+  top: 610px;
+  cursor: pointer;
+  border: 1px solid #1A0328;
+  border-radius: 30px;
+  padding: 3px 45px;
+  border:none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 27px;
+  display: flex;
+  text-align:center;
+  color: #1A0328;
+  box-shadow: 1px 2px 5px #a459a7 ;
+}
+
+.Rec_01{
+  left: calc(10%);
+}
+.Rec_02{
+  left: calc(22%);
+}
+.Rec_03{
+  left: calc(35%);
+}
+.Rec_04{
+  left: calc(50%);
+}
+.Rec_05{
+  left: calc(65%);
+}
+.Rec_06{
+  left: calc(80%);
+}
+
+.btn:hover{
+  background-color: #7C24D3;
+  border: none;
+  transform: scale(1.05);
+  color: white;
+  box-shadow: 1px 2px 5px grey ;
+}

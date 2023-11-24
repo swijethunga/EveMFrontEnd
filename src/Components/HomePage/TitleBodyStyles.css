@@ -1,0 +1,39 @@
+.TitleBody{
+    position: absolute;
+    width: 1440px;
+    height: 504px;
+
+    background: linear-gradient(180deg, #1A0328 5.49%, rgba(203, 28, 141, 0) 122.3%);
+}
+.TitleBodyEvemCont{
+    text-align: center;
+    align-items: center;
+}
+.TitleBodyEvem{
+    font-weight: 800;
+    font-size: 150px;
+    color: #FFFFFF;    
+}
+.TitleBodyEventMan{
+    position: absolute;
+    left: calc(50% - 220px/2 - 0.5px);
+    top: 290px;
+    
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: rgba(80, 41, 83, 0.36);
+}
+.r1{
+    position: absolute;
+    width: 1982px;
+    height: 129px;
+    left: calc(50% - 1982px/2 + 215px);
+    top: 450px;
+    background: url(../../Images/r1.png);
+}
